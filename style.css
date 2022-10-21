@@ -1,0 +1,110 @@
+:root{
+    --Orange: hsl(26, 100%, 55%);
+    --PaleOrange: hsl(25, 100%, 94%);
+    --VeryDarkBlue: hsl(220, 13%, 13%);
+    --DarkGrayishBlue: hsl(219, 9%, 45%);
+    --GrayishBlue: hsl(220, 14%, 75%);
+    --LightGrayishBlue: hsl(223, 64%, 98%);
+    --White: hsl(0, 0%, 100%);
+    --Black: (with 75% opacity for lightbox background): hsl(0, 0%, 0%);
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, p{
+    margin: 0;
+  }
+
+  body{
+    font-family: 'Kumbh Sans', sans-serif;    
+  }
+
+  .titleAndMenu{
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+  }
+
+  .titleAndMenu p{
+    cursor: pointer;
+    color: var(--GrayishBlue);
+  }
+
+  .titleAndMenu p:hover{
+    color: var(--DarkGrayishBlue);
+  }
+
+  .titleAndMenu h1{
+    font-weight: 700;
+    margin-bottom: 0%;
+  }
+
+  .header{
+    border-bottom: 1px solid black;
+  }
+
+  .header header{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #imageAvatar{
+    max-width: 45px;
+    margin-left: 0.75rem; 
+  }
+
+  #imageSneaker{
+    max-width: 430px;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+  }
+
+  .groupImages img{
+    max-width: 80px;
+    border-radius: 10px;
+  }
+
+  .groupImages{
+    display:flex;
+    gap: 2rem;
+  }  
+
+  .productDescription {
+    padding-top: 5rem;
+    margin-left: 8rem;
+    align-items: left;
+    width: 450px;
+    display: flex;
+    gap: 2rem;
+  }
+
+  .container{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+  }
+
+ #orangeTitle{
+    color: var(--Orange);   
+    
+ }
+
+ #blackTitle{
+    color: var(--Black); 
+   
+   
+ }
+
+ #price{
+    color: var(--Black);    
+ }
+
+ #priceOff{
+    color: var(--GrayishBlue);   
+    
+ }
