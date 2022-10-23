@@ -30,7 +30,7 @@
 
   .titleAndMenu p{
     cursor: pointer;
-    color: var(--GrayishBlue);
+    color: var(--Black);
   }
 
   .titleAndMenu p:hover{
@@ -42,7 +42,7 @@
   }
 
   .header {
-    border-bottom: 1px solid greenyellow; /* não consigo subir esse border aqui */
+    border-bottom: 1px solid magenta; /* não consigo subir esse border aqui */
   }
 
   .header header{
@@ -61,6 +61,7 @@
     max-width: 430px;
     border-radius: 12px;
     margin-bottom: 2rem;
+    margin-right: 5rem;
   }
 
   .groupImages img{
@@ -73,38 +74,65 @@
     gap: 2rem;
   }  
 
-  .productDescription {
-    padding-top: 5rem;
-    margin-left: 8rem;
+  .descriptionProduct {
     align-items: left;
-    width: 450px;
-    display: flex;
-    gap: 2rem;
+    margin-top: 5%;   
+    
+  }
+
+  .descriptionProduct p{
+    align-items: left;
+    margin-top: 5%;   
+    
   }
 
   .container{
     width: 100%;
     display: flex;
-    gap: 2rem;
-    border-bottom: 1px solid black; /* inclui esse border aqui */ 
+    gap: 2rem;    
   }
 
  #orangeTitle{
-    color: var(--Orange);   
+    color: var(--Orange);
+    font-size: 1rem; 
+    font-weight: bold;    
     
  }
 
  #blackTitle{
-    color: var(--Black); 
-   
+    color: var(--Black);
+    font-size: 3rem; 
+    font-weight: bold; 
    
  }
 
  #price{
-    color: var(--Black);    
+    color: var(--Black);
+    font-size: 2rem; 
+    font-weight: bolder; 
+ }
+
+ #discount {
+    color: var(--Orange);
+    background-color: var(--PaleOrange);
+    font-size: 1rem;  
+    font-weight: bold;
+    align-items: center;  
+    
+       
  }
 
  #priceOff{
-    color: var(--GrayishBlue);   
+    color: var(--GrayishBlue);
+    font-size: 1rem   
     
  }
+
+ .containerPrice{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 10px; /*não consigo deixar a borda visível*/
+ }
+
+ 
