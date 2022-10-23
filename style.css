@@ -38,12 +38,11 @@
   }
 
   .titleAndMenu h1{
-    font-weight: 700;
-    margin-bottom: 0%;
+    font-weight: 700;  
   }
 
-  .header{
-    border-bottom: 1px solid black;
+  .header {
+    border-bottom: 1px solid greenyellow; /* não consigo subir esse border aqui */
   }
 
   .header header{
@@ -87,6 +86,7 @@
     width: 100%;
     display: flex;
     gap: 2rem;
+    border-bottom: 1px solid black; /* inclui esse border aqui */ 
   }
 
  #orangeTitle{
