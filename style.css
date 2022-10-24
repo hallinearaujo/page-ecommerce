@@ -42,7 +42,7 @@
   }
 
   .header {
-    border-bottom: 1px solid magenta; /* não consigo subir esse border aqui */
+    border-bottom: 1px solid var(--GrayishBlue); 
   }
 
   .header header{
@@ -82,7 +82,7 @@
 
   .descriptionProduct p{
     align-items: left;
-    margin-top: 5%;   
+    margin-top: 2%;   
     
   }
 
@@ -117,8 +117,11 @@
     background-color: var(--PaleOrange);
     font-size: 1rem;  
     font-weight: bold;
-    align-items: center;  
-    
+    align-items: center; 
+    border-radius: 7px; 
+    padding: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
        
  }
 
@@ -131,8 +134,48 @@
  .containerPrice{
     display: flex;
     align-items: center;
-    gap: 1rem;
-    border-radius: 10px; /*não consigo deixar a borda visível*/
+    gap: 1rem;     
  }
+
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 1rem;    
+}
+
+.quantity{
+    padding: 10px;
+    margin-top: 5%;
+}
+
+.minus-btn, .plus-btn, #text{
+    padding: 20px;
+    background-color: var(--LightGrayishBlue);
+    border: none;
+    text-align: center;
+    width: 50px;
+    border-radius: 10px;    
+}
+
+.btn-add{
+    width: 300px;
+    padding: 20px;
+    background-color: var(--Orange);
+    border: none;
+    font-size: 1rem;
+    color:var(--White);
+    font-weight: bold;
+    border-radius: 10px;     
+    /* falta deixar o ícone do cart branco, alinhar ele junto com o contador e criar uma shadow*/  
+}
+
+
+
+
+
+
+
+
+
 
  

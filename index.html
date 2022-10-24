@@ -24,10 +24,12 @@
         <p>About</p>
         <p>Contact</p>
       </div>
+    
       <div class="avatarAndCart">
         <img src="./images/icon-cart.svg" alt="">
         <img src="./images/image-avatar.png" alt="" id="imageAvatar">
       </div>
+    </div>
       
     </header>
     <div class="container mt-5">
@@ -49,13 +51,31 @@
             <p id="price">$125.00</p>
             <p id="discount">50%</p>
           </div>
-          <del id="priceOff">$250.00</del>
-          
+          <del id="priceOff">$250.00</del> 
 
+          <div class="cart">
+            <div class="quantity">         
+              <button class="minus-btn" type="button" name="button">
+                <img src="./images/icon-minus.svg" alt="" id="imgCart"/>
+              </button>
+              <input type="text" name="name" value="0" id="text">
+              <button class="plus-btn" type="button" name="button">
+                <img src="./images/icon-plus.svg" alt="" />
+              </button>              
+          </div>
 
-      </div>
+          <div class="cartAdd">
+            <button class="btn-add" name="name">
+              <img src="./images/icon-cart.svg" alt="icon-cart">Add to cart             
+            </button>
+          </div>
+          </div>    
+      </div>      
     </div>
-  </div>
+    
+      
+    </div>
+  
   
 </body>
 </html>
